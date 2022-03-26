@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.mcreator.aquaticraft;
+package net.mcreator.depthsofthesea;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -28,16 +28,16 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-@Mod("aquaticraft")
-public class AquaticraftMod {
-	public static final Logger LOGGER = LogManager.getLogger(AquaticraftMod.class);
-	public static final String MODID = "aquaticraft";
+@Mod("depthsofthesea")
+public class DepthsoftheseaMod {
+	public static final Logger LOGGER = LogManager.getLogger(DepthsoftheseaMod.class);
+	public static final String MODID = "depthsofthesea";
 	private static final String PROTOCOL_VERSION = "1";
 	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
 
-	public AquaticraftMod() {
+	public DepthsoftheseaMod() {
 
 	}
 

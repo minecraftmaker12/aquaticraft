@@ -1,0 +1,70 @@
+{
+  "mod_elements": [
+    {
+      "name": "YetiCrabNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeti_crab_natural_entity_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "YetiCrab",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yeti_crab"
+    },
+    {
+      "name": "OceanTrench",
+      "type": "biome",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ocean_trench"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "entity.depthsofthesea.yeti_crab": "Yeti Crab",
+      "entity.aquaticraft.yeti_crab": "Yeti Crab",
+      "biome.depthsofthesea.ocean_trench": "Ocean Trench",
+      "item.aquaticraft.yeti_crab_spawn_egg": "Yeti Crab Spawn Egg",
+      "item.depthsofthesea.yeti_crab_spawn_egg": "Yeti Crab Spawn Egg"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "depthsofthesea",
+    "modName": "depths of the sea",
+    "version": "1.0.0",
+    "author": "dooli, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.depthsofthesea",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

@@ -3,14 +3,14 @@ loaderVersion="[37,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="aquaticraft"
+modId="depthsofthesea"
 version="1.0.0"
-displayName="Aquaticraft"
+displayName="depths of the sea"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="dooli, MCreator"
 
-[[dependencies.aquaticraft]]
+[[dependencies.depthsofthesea]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.17.1]"
