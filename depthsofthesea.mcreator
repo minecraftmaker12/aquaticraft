@@ -31,6 +31,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ocean_trench"
+    },
+    {
+      "name": "HydrothermalVent",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrothermal_vent"
     }
   ],
   "variable_elements": [],
@@ -38,6 +46,7 @@
   "language_map": {
     "en_us": {
       "entity.depthsofthesea.yeti_crab": "Yeti Crab",
+      "block.depthsofthesea.hydrothermal_vent": "Hydrothermal Vent",
       "entity.aquaticraft.yeti_crab": "Yeti Crab",
       "biome.depthsofthesea.ocean_trench": "Ocean Trench",
       "item.aquaticraft.yeti_crab_spawn_egg": "Yeti Crab Spawn Egg",

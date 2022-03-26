@@ -1,0 +1,8 @@
+{
+  "parent": "depthsofthesea:custom/hydrothermal_vent",
+  "textures": {
+    "all": "depthsofthesea:blocks/ventt",
+    "particle": "depthsofthesea:blocks/ventt",
+    "0": "depthsofthesea:blocks/epic"
+  }
+}
